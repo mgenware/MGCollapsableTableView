@@ -4,6 +4,7 @@
 //
 //  Created by Mgen on 15/11/10.
 //  Copyright © 2015 Mgen. All rights reserved.
+//  https://github.com/mgenware/MGCollapsableTableView
 //
 
 #import <UIKit/UIKit.h>
