@@ -21,4 +21,4 @@ Download the whole project or clone this Git repository.
     * Implement `- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section` and return your desired header view height.
     * Implement `- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section`. You **must call `[self setupCollapsableSection:sectionIndex:]` on each section view object** in order to delegate header view events to `UITableViewController`.
     * Implement other necessary methods(`cellForRowAtIndexPath`...).
-    * Call `collapseSection`, `expandSection`, `collapseAllSections`, `expandAllSections` if you want programmatically control the state of a(all) section(s).
+    * Call `collapseSection`, `expandSection`, `collapseAllSections`, `expandAllSections` if you want to programmatically control the state of a(all) section(s).
